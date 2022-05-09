@@ -21,7 +21,7 @@
             <nav>
             
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">INICIO</a></li>
                     <li><a href="#">COMIDA</a></li>
                     <li><a href="#">ACTIVIDADES AIRE LIBRE</a></li>
                     <li><a href="#">ARTE Y ARQUITECTURA</a></li>
