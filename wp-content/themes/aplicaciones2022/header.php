@@ -17,7 +17,7 @@
         <header>
             <!-- nav -->
                 <ul class= "nav justify-content-end">
-                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php">HOME</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">COMIDA</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">AIRE LIBRE</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">ARTE Y ARQUITECTURA</a></li>
