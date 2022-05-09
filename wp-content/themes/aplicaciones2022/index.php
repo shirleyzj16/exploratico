@@ -1,60 +1,50 @@
-<!doctype html>
-<html lang="en">
+<?php get_header(); ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WORDPRESS</title>
-    
-</head>
-
-<body>
-   <!-- container -->
-    <div>
-        <!-- header -->
-        <header>
-        <div>
-                <h1>EXPLORATICO</h1>
+<!--  video --> 
+<div class="video-background">
+    <div class="container">
+        <div class="row">
+            <div class= "col">
+                <h2>Conoce lo más nuevo </h2>
+                <p class="video-paragraph">Queremos mostrate lo mejor. Por eso nos encontramos constantemente actualizando con nuevos, hermosos e interesantes lugares para que descubras</p>
             </div>
-            <!-- nav -->
-            <nav>
-            
-                <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">COMIDA</a></li>
-                    <li><a href="#">ACTIVIDADES AIRE LIBRE</a></li>
-                    <li><a href="#">ARTE Y ARQUITECTURA</a></li>
-                    <li><a href="#">SOBRE NOSOTROS</a></li>
-                </ul>
-            </nav>
-            <!-- nav -->
-            
-        </header>
-        <!-- header -->
-
-        <!-- content -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestiae repellendus illum consequatur atque cumque ea eos voluptates minus ipsum! Consequuntur quam esse fuga eius nostrum ullam in quaerat provident!</p>
-        <!-- content -->  
-
-        <!-- footer -->
-        <footer>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="#">YOUTUBE</a></li>
-                        <li><a href="#">FACEBOOK</a></li>
-                        <li><a href="#">CORREO</a></li>
-                        <li><a href="#">INSTRAGRAM</a></li>
-                    </ul>
-                </nav>
-                <p>2022 &copy;</p>
+            <div class= "col">
+                <h2>video</h2>
             </div>
-        </footer>
-        <!-- footer -->
+        </div>
+    </div>
+</div>    
+
+<!-- categoria -->
+<div class="category-container">
+    <div class="row">
+        <div class="col">
+            <h3>Mira estas increíbles categorías</h3>
+            <p class="categories-subtitle">Desde arquitectura hasta actividades al aire libre. Hay una gran cantidad de opciones para disfrutar</p>
+        </div>
+    </div class="row">
+    <div class="row">
+        <div class= "col ">
+            <p>Cat 1 </p>
+        </div>
+        <div class= "col ">
+             <p>Cat 2</p>
+        </div>
+        <div class= "col ">
+            <p>Cat 3</p>
+        </div>
+    </div>
+</div>   
+
+<!--anuncio-->
+<div class="ad-background">
+    <div class="container ad-image">
+        <div  class="container ad-container">
+            <h4>¿Conoces sobre más lugares interesantes?</h3>
+            <p class="ad-paragraph">Cuentanoslo y nosotros nos encargamos del resto</p>
+        </div>
 
     </div>
-    <!-- container -->
-</body>
+</div> 
 
-</html>
+<?php get_footer(); ?> 
